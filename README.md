@@ -7,8 +7,8 @@ To crack password hashes using John the Ripper in Kali Linux.
 ●	Hardware: PCs
 
 ```
-Register Number: 212222040121
-Name: Praveen V
+Register Number: 212222040020
+Name: Ashwinkumar S
 ```
 
 ## DESIGN STEPS:
@@ -28,25 +28,27 @@ Use John the Ripper to crack the hashes
   
   •	Name the file: praveen.txt.
 
-  ![image](https://github.com/user-attachments/assets/936d80e5-b2b5-4e26-a0e2-11e1f359cf0d)
+  ![Screenshot 2025-04-22 202441](https://github.com/user-attachments/assets/53b5a5fb-7bc1-4acc-b1fd-2fedf6d20bd1)
+
 
   •	Open it and type:
 
-  ![image](https://github.com/user-attachments/assets/c471f666-1632-4dee-81d0-b43d97d8e6f7)
+ ![Screenshot 2025-04-22 202727](https://github.com/user-attachments/assets/8d212bcc-21c0-4795-980e-d0958c2fc612)
 
   •	Save and close the file.
 
 ### Step 2: Create a Password-Protected ZIP File
 
   •	Right-click on praveen.txt → Create Archive.
-  
-  ![image](https://github.com/user-attachments/assets/401099f6-f9b0-47af-8065-8daf3bde16d4)
+  ![Screenshot 2025-04-22 202820](https://github.com/user-attachments/assets/96393f0f-027a-4e3f-b102-825679551799)
+
 
   •	Select .zip format.
   
   •	Click Other Options, set a password (e.g., 1234), then click Create.
 
-  ![image](https://github.com/user-attachments/assets/c2621395-c93e-4083-9bdd-333a3f0a95c8)
+![Screenshot 2025-04-22 202937](https://github.com/user-attachments/assets/0da2197b-81e6-4419-aa41-8c1757ed7f91)
+
 
   •	A file named praveen.txt.zip will appear.
 
@@ -64,32 +66,36 @@ Use John the Ripper to crack the hashes
 
   •	In the terminal, switch to the Desktop where the ZIP file is located:
   
-  ![image](https://github.com/user-attachments/assets/8f16dd47-a74a-4ace-93b4-9646a492d6aa)
+ ![Screenshot 2025-04-22 203818](https://github.com/user-attachments/assets/a497e10e-750c-4ee5-8b95-a105725cb1ca)
+
 
 ### Step 5: Confirm the ZIP File is Present
 
   •	Run: “ls” command
-  
-  ![image](https://github.com/user-attachments/assets/993d8812-b369-48b2-b5b4-87ab6244c288)
+  ![Screenshot 2025-04-22 203546](https://github.com/user-attachments/assets/4845b15a-5dab-45e1-ad11-81823cd5ea09)
+
 
   •	You should see praveen.txt.zip listed.
 
 ### Step 6: Generate Hash Using zip2john
 
   •	Execute:
-  ![image](https://github.com/user-attachments/assets/586d8286-0586-4d08-b4b8-a99675b5e94a)
+ ![Screenshot 2025-04-22 203600](https://github.com/user-attachments/assets/3fe67822-f305-4fdc-a24d-02a4dadc536f)
+
 
 ### Step 7: Verify the Hash File (Optional)
   •	Open hash.txt to ensure it contains the hash line.
-  ![image](https://github.com/user-attachments/assets/e0af1389-4671-471e-b159-84a1c8e8ed0e)
+ ![Screenshot 2025-04-22 203453](https://github.com/user-attachments/assets/4086cd41-c1a0-48e1-b574-197449cddbbc)
 
 ### Step 8: Start Cracking the Password
   •	Run:
-  ![image](https://github.com/user-attachments/assets/587ad087-542e-4087-a14c-d7c71cca9cc0)
+![Screenshot 2025-04-22 203948](https://github.com/user-attachments/assets/7e29d0ed-024b-4132-b8dd-a44f28f3c4d2)
+
 
 ## OUTPUT:View the Cracked Password
   • After cracking is complete, reveal the password using:
-  ![image](https://github.com/user-attachments/assets/4816226e-22cf-47b7-89bc-92f68082284f)
+![Screenshot 2025-04-22 204018](https://github.com/user-attachments/assets/0ee3af93-7536-46a9-aeb2-7ddeac9411b5)
+
 
   •	The terminal will display the filename and its cracked password.
 
