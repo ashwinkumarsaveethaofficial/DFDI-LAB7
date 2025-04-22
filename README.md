@@ -40,6 +40,7 @@ Use John the Ripper to crack the hashes
 ### Step 2: Create a Password-Protected ZIP File
 
   •	Right-click on praveen.txt → Create Archive.
+  
   ![Screenshot 2025-04-22 202820](https://github.com/user-attachments/assets/96393f0f-027a-4e3f-b102-825679551799)
 
   •	Select .zip format.
@@ -91,11 +92,13 @@ Use John the Ripper to crack the hashes
 
 ### Step 8: Start Cracking the Password
   •	Run:
+  
 ![Screenshot 2025-04-22 203948](https://github.com/user-attachments/assets/7e29d0ed-024b-4132-b8dd-a44f28f3c4d2)
 
 
 ## OUTPUT:View the Cracked Password
   • After cracking is complete, reveal the password using:
+  
 ![Screenshot 2025-04-22 204018](https://github.com/user-attachments/assets/0ee3af93-7536-46a9-aeb2-7ddeac9411b5)
 
 
