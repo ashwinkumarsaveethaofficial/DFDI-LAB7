@@ -71,6 +71,7 @@ Use John the Ripper to crack the hashes
 ### Step 5: Confirm the ZIP File is Present
 
   •	Run: “ls” command
+  
   ![Screenshot 2025-04-22 203546](https://github.com/user-attachments/assets/4845b15a-5dab-45e1-ad11-81823cd5ea09)
 
 
@@ -79,11 +80,13 @@ Use John the Ripper to crack the hashes
 ### Step 6: Generate Hash Using zip2john
 
   •	Execute:
+  
  ![Screenshot 2025-04-22 203600](https://github.com/user-attachments/assets/3fe67822-f305-4fdc-a24d-02a4dadc536f)
 
 
 ### Step 7: Verify the Hash File (Optional)
   •	Open hash.txt to ensure it contains the hash line.
+  
  ![Screenshot 2025-04-22 203453](https://github.com/user-attachments/assets/4086cd41-c1a0-48e1-b574-197449cddbbc)
 
 ### Step 8: Start Cracking the Password
