@@ -42,7 +42,6 @@ Use John the Ripper to crack the hashes
   •	Right-click on praveen.txt → Create Archive.
   ![Screenshot 2025-04-22 202820](https://github.com/user-attachments/assets/96393f0f-027a-4e3f-b102-825679551799)
 
-
   •	Select .zip format.
   
   •	Click Other Options, set a password (e.g., 1234), then click Create.
